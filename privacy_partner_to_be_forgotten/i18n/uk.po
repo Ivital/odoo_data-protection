@@ -148,3 +148,45 @@ msgid ""
 msgstr ""
 "Користувачі цієї групи можуть анонімізувати контактні дані для відповідності"
 " GDPR."
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/models/res_partner.py:0
+msgid "%(company)s Anonymized"
+msgstr "%(company)s анонімізовано"
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/models/res_partner.py:0
+msgid "%(initials)s Anonymized"
+msgstr "%(initials)s анонімізовано"
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/wizards/partner_anonymize_wizard.py:0
+msgid "%(partner_count)d partner(s) have been anonymized successfully."
+msgstr "Успішно анонімізовано %(partner_count)d партнера(ів)."
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/wizards/partner_anonymize_wizard.py:0
+msgid "Anonymization Result"
+msgstr "Результат анонімізації"
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/wizards/partner_anonymize_wizard.py:0
+msgid "No partners selected for anonymization."
+msgstr "Не вибрано партнерів для анонімізації."
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/models/res_partner.py:0
+msgid "This contact has been anonymized on %(date)s by %(user)s"
+msgstr "Цей контакт анонімізовано %(date)s користувачем %(user)s"
+
+#. module: privacy_partner_to_be_forgotten
+#. odoo-python
+#: code:addons/privacy_partner_to_be_forgotten/wizards/partner_anonymize_wizard.py:0
+msgid "You don't have permission to anonymize partners."
+msgstr "У вас немає дозволу на анонімізацію партнерів."

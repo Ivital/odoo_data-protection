@@ -450,3 +450,33 @@ msgstr "Стан змінено"
 #: model:ir.model.fields,help:privacy_consent.field_privacy_consent__partner_id
 msgid "Subject asked for consent."
 msgstr "Суб’єкта запитано про згоду."
+
+#. module: privacy_consent
+#. odoo-python
+#: code:addons/privacy_consent/models/privacy_activity.py:0
+msgid "Generated consents"
+msgstr "Згенеровані згоди"
+
+#. module: privacy_consent
+#. odoo-python
+#: code:addons/privacy_consent/models/mail_template.py:0
+msgid ""
+"Missing privacy consent link placeholders. You need at least these two links:\n"
+"<a href=\"%(consent_url)s\">Accept</a>\n"
+"<a href=\"%(reject_url)s\">Reject</a>"
+msgstr ""
+"Відсутні placeholders посилань згоди на конфіденційність. Потрібні щонайменше ці два посилання:\n"
+"<a href=\"%(consent_url)s\">Прийняти</a>\n"
+"<a href=\"%(reject_url)s\">Відхилити</a>"
+
+#. module: privacy_consent
+#. odoo-python
+#: code:addons/privacy_consent/models/privacy_activity.py:0
+msgid "Require consent is available only for subjects in current database."
+msgstr "Вимога згоди доступна лише для суб’єктів у поточній базі даних."
+
+#. module: privacy_consent
+#. odoo-python
+#: code:addons/privacy_consent/models/privacy_activity.py:0
+msgid "Specify a mail template to ask automated consent."
+msgstr "Вкажіть поштовий шаблон для запиту автоматизованої згоди."
