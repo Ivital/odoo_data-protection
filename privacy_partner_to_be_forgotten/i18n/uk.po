@@ -32,3 +32,23 @@ msgstr "Відображувана назва"
 #: model:ir.model.fields,field_description:privacy_partner_to_be_forgotten.field_partner_anonymize_wizard__partner_ids
 msgid "Partner"
 msgstr "Партнер"
+
+#. module: privacy_partner_to_be_forgotten
+#: model:ir.actions.act_window,name:privacy_partner_to_be_forgotten.action_partner_anonymize
+msgid "Anonymize (GDPR)"
+msgstr "Анонімізувати (GDPR)"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: privacy_partner_to_be_forgotten
+#: model:ir.model.fields,field_description:privacy_partner_to_be_forgotten.field_partner_anonymize_wizard__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: privacy_partner_to_be_forgotten
+#: model:ir.model.fields,field_description:privacy_partner_to_be_forgotten.field_partner_anonymize_wizard__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"

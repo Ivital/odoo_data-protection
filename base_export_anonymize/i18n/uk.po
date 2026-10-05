@@ -38,3 +38,13 @@ msgstr "Поле"
 #: model:ir.ui.menu,name:base_export_anonymize.ir_model_fields_export_anonymize_menu
 msgid "Fields Export Anonymize"
 msgstr "Анонімізація полів експорту"
+
+#. module: base_export_anonymize
+#: model:ir.model.fields,field_description:base_export_anonymize.field_ir_model_fields_export_anonymize__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: base_export_anonymize
+#: model:ir.model.fields,field_description:base_export_anonymize.field_ir_model_fields_export_anonymize__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
