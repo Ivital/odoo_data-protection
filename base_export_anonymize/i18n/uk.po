@@ -48,3 +48,8 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:base_export_anonymize.field_ir_model_fields_export_anonymize__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: base_export_anonymize
+#: model:ir.model.fields,field_description:base_export_anonymize.field_ir_model_fields__anonymize_in_export
+msgid "Anonymize In Export"
+msgstr "Анонімізувати під час експорту"

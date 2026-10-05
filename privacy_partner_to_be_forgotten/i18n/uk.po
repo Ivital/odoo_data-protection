@@ -52,3 +52,81 @@ msgstr "Останнє оновлення ким"
 #: model:ir.model.fields,field_description:privacy_partner_to_be_forgotten.field_partner_anonymize_wizard__write_date
 msgid "Last Updated on"
 msgstr "Останнє оновлення"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "<strong>Important:</strong>"
+msgstr "<strong>Важливо:</strong>"
+
+#. module: privacy_partner_to_be_forgotten
+#: model:res.groups,name:privacy_partner_to_be_forgotten.group_partner_anonymize
+msgid "Administrator"
+msgstr "Адміністратор"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Anonymize Partners"
+msgstr "Анонімізувати партнерів"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Confirm Anonymization"
+msgstr "Підтвердити анонімізацію"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Confirmation Required: Anonymization Process"
+msgstr "Потрібне підтвердження: процес анонімізації"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Contact's activity history"
+msgstr "Історія активності контакту"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Messages and attachments in chat history"
+msgstr "Повідомлення та вкладення в історії чату"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid ""
+"Once the data is anonymized, it <strong>cannot be restored</strong>. Please "
+"proceed carefully."
+msgstr ""
+"Після анонімізації дані <strong>неможливо відновити</strong>. Дійте "
+"обережно."
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid ""
+"Once you confirm, Odoo will anonymize the selected partner(s) and all "
+"related records, including:"
+msgstr ""
+"Після підтвердження Odoo анонімізує вибраних партнерів і всі пов’язані "
+"записи, зокрема:"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "Personal information (name, email, phone, address)"
+msgstr "Особиста інформація (ім’я, email, телефон, адреса)"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "The anonymization operation <strong>cannot be undone</strong>."
+msgstr "Операцію анонімізації <strong>неможливо скасувати</strong>."
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid "User account information (if the contact has system access)"
+msgstr ""
+"Інформація облікового запису користувача (якщо контакт має системний доступ)"
+
+#. module: privacy_partner_to_be_forgotten
+#: model_terms:ir.ui.view,arch_db:privacy_partner_to_be_forgotten.view_partner_anonymize_wizard_form
+msgid ""
+"You <strong>carry full responsibility</strong> for using the module's "
+"features in compliance with GDPR regulations."
+msgstr ""
+"Ви <strong>несете повну відповідальність</strong> за використання функцій "
+"модуля відповідно до вимог GDPR."

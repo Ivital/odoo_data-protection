@@ -206,3 +206,123 @@ msgstr "З повагою,<br/>"
 #: model_terms:ir.ui.view,arch_db:privacy_consent.form
 msgid "Thank you!"
 msgstr "Дякуємо!"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__default_consent
+msgid "Accepted by default"
+msgstr "Прийнято за замовчуванням"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__consent_required
+msgid "Ask subjects for consent"
+msgstr "Запитувати теми для згоди"
+
+#. module: privacy_consent
+#: model:ir.model.fields.selection,name:privacy_consent.selection__privacy_consent__state__sent
+msgid "Awaiting response"
+msgstr "Очікування відповіді"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__consent_template_default_body_html
+msgid "Consent Template Default Body Html"
+msgstr "HTML тіла шаблону згоди за замовчуванням"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__consent_template_default_subject
+msgid "Consent Template Default Subject"
+msgstr "Тема шаблону згоди за замовчуванням"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.activity_form
+msgid "Generate and enqueue missing consent requests"
+msgstr "Створити й поставити в чергу відсутні запити згоди"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.activity_form
+msgid "Generate missing draft consent requests"
+msgstr "Створити відсутні чернетки запитів згоди"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "I <b>accept</b> this processing of my data"
+msgstr "Я <b>приймаю</b> цю обробку моїх даних"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "I <b>reject</b> this processing of my data"
+msgstr "Я <b>відхиляю</b> цю обробку моїх даних"
+
+#. module: privacy_consent
+#: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: privacy_consent
+#: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "If it was a mistake, you can undo it here:"
+msgstr "Якщо це була помилка, її можна скасувати тут:"
+
+#. module: privacy_consent
+#: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: privacy_consent
+#: model:ir.model.fields,help:privacy_consent.field_privacy_consent__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: privacy_consent
+#: model:ir.model.fields,help:privacy_consent.field_res_partner__privacy_consent_count
+#: model:ir.model.fields,help:privacy_consent.field_res_users__privacy_consent_count
+msgid "Privacy consent requests amount"
+msgstr "Кількість запитів на згоду щодо конфіденційності"
+
+#. module: privacy_consent
+#: model:ir.actions.server,name:privacy_consent.cron_auto_consent_ir_actions_server
+msgid "Request automatic data processing consents"
+msgstr "Запитувати автоматичну згоду на обробку даних"
+
+#. module: privacy_consent
+#: model:ir.actions.server,name:privacy_consent.sync_blacklist
+msgid "Sync partner's email blacklist status"
+msgstr "Синхронізувати статус чорного списку email контрагента"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "Thanks for your response."
+msgstr "Дякуємо за вашу відповідь."
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.activity_form
+msgid "This could enqueue many consent emails, are you sure to proceed?"
+msgstr "Це може поставити в чергу багато листів згоди. Продовжити?"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid ""
+"We asked you to authorize us to process your data in this data processing "
+"activity:"
+msgstr ""
+"Ми просили вас надати дозвіл на обробку ваших даних у цій діяльності з "
+"обробки даних:"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "We have recorded this action on your side."
+msgstr "Ми зафіксували цю дію з вашого боку."
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "You have <b class=\"text-danger\">rejected</b> such processing."
+msgstr "Ви <b class=\"text-danger\">відхилили</b> таку обробку."
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.form
+msgid "You have <b class=\"text-success\">accepted</b> such processing."
+msgstr "Ви <b class=\"text-success\">прийняли</b> таку обробку."
