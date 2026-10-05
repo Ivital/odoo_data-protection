@@ -1,0 +1,92 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:39+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__accepted
+#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
+msgid "Accepted"
+msgstr "Прийнято"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__activity_id
+#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
+msgid "Activity"
+msgstr "Активність"
+
+#. module: privacy_consent
+#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_form
+#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: privacy_consent
+#: model:ir.actions.act_window,name:privacy_consent.consent_action
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_activity__consent_ids
+#: model:ir.model.fields,field_description:privacy_consent.field_res_partner__privacy_consent_count
+#: model:ir.model.fields,field_description:privacy_consent.field_res_users__privacy_consent_count
+#: model:ir.ui.menu,name:privacy_consent.menu_privacy_consent
+msgid "Consents"
+msgstr "Згоди"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__state
+#: model_terms:ir.ui.view,arch_db:privacy_consent.consent_search
+msgid "State"
+msgstr "Стан"
+
+#. module: privacy_consent
+#: model:ir.model.fields,field_description:privacy_consent.field_privacy_consent__partner_id
+msgid "Subject"
+msgstr "Тема"
