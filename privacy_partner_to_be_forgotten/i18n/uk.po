@@ -130,3 +130,21 @@ msgid ""
 msgstr ""
 "Ви <strong>несете повну відповідальність</strong> за використання функцій "
 "модуля відповідно до вимог GDPR."
+
+#. module: privacy_partner_to_be_forgotten
+#: model:ir.module.category,name:privacy_partner_to_be_forgotten.module_category_anonymize_contacts
+msgid "Anonymize Contacts"
+msgstr "Анонімізувати контакти"
+
+#. module: privacy_partner_to_be_forgotten
+#: model:ir.model,name:privacy_partner_to_be_forgotten.model_partner_anonymize_wizard
+msgid "Partner Anonymization Wizard"
+msgstr "Майстер анонімізації партнера"
+
+#. module: privacy_partner_to_be_forgotten
+#: model:res.groups,comment:privacy_partner_to_be_forgotten.group_partner_anonymize
+msgid ""
+"Users in this group can anonymize contact information for GDPR compliance."
+msgstr ""
+"Користувачі цієї групи можуть анонімізувати контактні дані для відповідності"
+" GDPR."

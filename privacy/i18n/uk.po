@@ -301,3 +301,45 @@ msgstr "Деталі тем"
 #: model:ir.model.fields,help:privacy.field_privacy_activity__activity_exception_decoration
 msgid "Type of the exception activity on record."
 msgstr "Тип дії-винятку для запису."
+
+#. module: privacy
+#: model:ir.model.fields,help:privacy.field_privacy_activity__subject_find
+msgid "Are affected subjects present in this database?"
+msgstr "Чи присутні відповідні суб’єкти в цій базі даних?"
+
+#. module: privacy
+#: model:ir.module.category,name:privacy.module_category_data_protection
+msgid "Data Protection"
+msgstr "Захист даних"
+
+#. module: privacy
+#: model:res.groups,name:privacy.group_data_protection_manager
+msgid "Data Protection Manager"
+msgstr "Менеджер захисту даних"
+
+#. module: privacy
+#: model:res.groups,name:privacy.group_data_protection_user
+msgid "Data Protection User"
+msgstr "Користувач захисту даних"
+
+#. module: privacy
+#: model:ir.model.fields,help:privacy.field_privacy_activity__description
+msgid "How is personal data used here? Why? Etc."
+msgstr "Як тут використовуються персональні дані? Чому? Тощо."
+
+#. module: privacy
+#: model:ir.model.fields,help:privacy.field_privacy_activity__subject_domain
+msgid "Selection filter to find specific subjects included."
+msgstr "Фільтр вибору для пошуку конкретних включених суб’єктів."
+
+#. module: privacy
+#: model:ir.model.fields,help:privacy.field_privacy_activity__controller_id
+msgid ""
+"Whoever determines the purposes and means of the processing of personal "
+"data."
+msgstr "Особа, яка визначає цілі та засоби обробки персональних даних."
+
+#. module: privacy
+#: model:ir.model.fields,help:privacy.field_privacy_activity__processor_ids
+msgid "Whoever processes personal data on behalf of the controller."
+msgstr "Той, хто обробляє персональні дані від імені контролера."

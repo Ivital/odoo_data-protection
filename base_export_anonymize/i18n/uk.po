@@ -53,3 +53,13 @@ msgstr "Останнє оновлення"
 #: model:ir.model.fields,field_description:base_export_anonymize.field_ir_model_fields__anonymize_in_export
 msgid "Anonymize In Export"
 msgstr "Анонімізувати під час експорту"
+
+#. module: base_export_anonymize
+#: model:res.groups,name:base_export_anonymize.group_anonymize_data_in_export
+msgid "Anonymize data in export"
+msgstr "Анонімізувати дані під час експорту"
+
+#. module: base_export_anonymize
+#: model:ir.model,name:base_export_anonymize.model_ir_model_fields_export_anonymize
+msgid "Ir Model Fields Export Anonymize"
+msgstr "Анонімізація експорту полів моделі"
